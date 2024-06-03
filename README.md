@@ -29,33 +29,37 @@ The main objectives of this project are:
 - To evaluate the model's performance using various metrics.
 
 ## 3. Dataset Information
-The dataset contains the following columns:
-- **symboling**
-- **normalized_losses**
-- **make**
-- **fuel_type**
-- **aspiration**
-- **num_doors**
-- **body_style**
-- **drive_wheels**
-- **engine_location**
-- **wheel_base**
-- **length**
-- **width**
-- **height**
-- **curb_weight**
-- **engine_type**
-- **num_cylinders**
-- **engine_size**
-- **fuel_system**
-- **bore**
-- **stroke**
-- **compression_ratio**
-- **horsepower**
-- **peak_rpm**
-- **city_mpg**
-- **highway_mpg**
-- **price** (target variable)
+The data dictionary for the car prices dataset contains the following columns, which provide detailed information about each attribute in the dataset. Here's an overview of each column:
+
+### Dataset Information
+The dataset consists of the following columns:
+
+1. **symboling**: Insurance risk rating assigned to each car.
+2. **normalized_losses**: Normalized loss values representing the relative average loss payment per insured vehicle year.
+3. **make**: Manufacturer or brand of the car.
+4. **fuel_type**: Type of fuel used by the car.
+5. **aspiration**: Type of aspiration used in the engine.
+6. **num_doors**: Number of doors in the car.
+7. **body_style**: Body style of the car.
+8. **drive_wheels**: Drive wheels configuration.
+9. **engine_location**: Location of the engine.
+10. **wheel_base**: Distance between the centers of the front and rear wheels.
+11. **length**: Overall length of the car.
+12. **width**: Overall width of the car.
+13. **height**: Overall height of the car.
+14. **curb_weight**: Weight of the car without occupants or baggage.
+15. **engine_type**: Type of engine used in the car.
+16. **num_cylinders**: Number of cylinders in the engine.
+17. **engine_size**: Size of the engine.
+18. **fuel_system**: Fuel system used in the car.
+19. **bore**: Diameter of each cylinder.
+20. **stroke**: Length of the piston travel inside the cylinder.
+21. **compression_ratio**: Ratio of the volume of the cylinder and combustion chamber at their maximum and minimum.
+22. **horsepower**: Power output of the engine.
+23. **peak_rpm**: Engine's peak revolutions per minute.
+24. **city_mpg**: Fuel efficiency in city driving conditions.
+25. **highway_mpg**: Fuel efficiency on the highway.
+26. **price**: Price of the car (target variable).
 
 ## 4. Prerequisites
 To run this project, you'll need:
