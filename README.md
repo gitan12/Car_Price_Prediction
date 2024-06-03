@@ -213,9 +213,25 @@ print("R² Score:", R2_score)
 The R² score indicates the proportion of the variance in the dependent variable that is predictable from the independent variables. It measures how well the regression model fits the observed data.
 
 ## 6. Conclusion
-- The multiple linear regression model provides insights into how various car attributes influence the price.
-- The evaluation metrics (MSE, MAE, RMSE, and R²) help us understand the model's accuracy and reliability.
-- Further improvements can be made by feature selection, outlier removal, or using more advanced regression techniques.
+Based on the evaluation metrics obtained for the linear regression model:
+
+- **Mean Absolute Error (MAE):** The MAE was calculated as 2241.650719048572, representing the average absolute difference between the actual and predicted car prices. Lower values indicate better model performance.
+
+- **Root Mean Squared Error (RMSE):** The RMSE, calculated as 56.090520980769405, measures the average magnitude of errors between the actual and predicted car prices. It is interpreted in the same unit as the target variable and provides a sense of the model's prediction accuracy.
+
+- **R-squared (R²) Score:** The R² score, obtained as 0.8586553507420542, reflects the proportion of variance in the target variable (car prices) explained by the model. A value close to 1 indicates a good fit of the model to the data, with higher values representing better performance.
+
+ - **Training Accuracy:** The model achieved a score of 0.8741926830108556, indicating how well it performed on the training dataset. This metric assesses the model's ability to fit the training data.
+
+- **Testing Accuracy:** The model's score on the testing dataset was 0.8586553507420542. This metric gauges how well the model generalizes to new, unseen data, providing insight into its predictive performance.
+
+Considering these evaluation metrics, the linear regression model demonstrates promising predictive performance:
+
+- The model achieved high accuracy on both the training and testing datasets, indicating robustness and generalization capability.
+- The relatively low MAE and RMSE suggest that the model's predictions are close to the actual car prices on average.
+- The R² score of 0.8586553507420542 indicates that the model explains approximately 85% of the variance in car prices, signifying a strong fit to the data.
+
+Overall, based on these metrics, the linear regression model appears to be effective in predicting car prices based on the selected features. However, further analysis and comparison with alternative models could provide additional insights into its performance and potential areas for improvement.
 
 ## Important Points to Remember
 - Multiple linear regression assumes a linear relationship between the independent and dependent variables.
