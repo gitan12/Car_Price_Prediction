@@ -81,7 +81,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 import warnings
 warnings.filterwarnings('ignore')
 ```
-First, we import the necessary libraries that are essential for data processing, model training, and assessment. This includes **Pandas** for data manipulation, **Matplotlib** and **Seaborn** for visualization, and various modules from **scikit-learn** for model building and evaluation.
+This code conducts linear regression analysis on a dataset using Pandas, Matplotlib, Seaborn, and scikit-learn. It begins with importing necessary libraries, proceeds to handle the dataset including exploration and visualization, splits it into training and testing sets, builds and trains a linear regression model, evaluates its performance, and suppresses warnings for a cleaner output. This concise workflow encapsulates data analysis from start to finish, encompassing data handling, modeling, evaluation, and visualization.
 
 ### B. Loading the Dataset
 
