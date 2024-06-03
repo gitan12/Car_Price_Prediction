@@ -62,7 +62,7 @@ The dataset consists of the following columns:
 26. **price**: Price of the car (target variable).
 
 ## 4. Prerequisites
-To run this project, you'll need:
+To run this project, we'll need:
 - Python installed on your computer.
 - Basic understanding of Python programming.
 - Libraries: pandas, matplotlib, seaborn, sklearn
